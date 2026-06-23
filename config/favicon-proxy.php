@@ -25,6 +25,12 @@ return [
     // Upstream request timeout in seconds.
     'timeout' => (int) env('FAVICON_PROXY_TIMEOUT', 6),
 
+    // Maximum upstream response size in bytes. A response advertising (or
+    // streaming) more than this is rejected and the transparent fallback is
+    // served instead — a DoS guard against an oversized upstream body. Default
+    // is 100 KB, comfortably above any real favicon.
+    'max_bytes' => (int) env('FAVICON_PROXY_MAX_BYTES', 102400),
+
     // Cache key prefix (`{cache_prefix}:{domain}`).
     'cache_prefix' => 'favicon',
 
