@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Laravel Favicon Proxy](https://raw.githubusercontent.com/jeffersongoncalves/laravel-favicon-proxy/master/art/jeffersongoncalves-laravel-favicon-proxy.png)
+![Laravel Favicon Proxy](https://raw.githubusercontent.com/jeffersongoncalves/laravel-favicon-proxy/main/art/jeffersongoncalves-laravel-favicon-proxy.png)
 
 </div>
 
@@ -9,8 +9,8 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/laravel-favicon-proxy.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-favicon-proxy)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-favicon-proxy/tests.yml?branch=master&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/laravel-favicon-proxy/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-favicon-proxy/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/laravel-favicon-proxy/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amaster)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-favicon-proxy/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/laravel-favicon-proxy/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-favicon-proxy/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/laravel-favicon-proxy/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/laravel-favicon-proxy.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-favicon-proxy)
 
 Proxy website favicons through your own host. Instead of pointing an external-link `<img>` straight at a third-party favicon service (a cross-origin connection on every page, leaking which links a visitor sees), this fetches the icon server-side once, caches the bytes, and serves them same-origin — the browser never talks to the upstream.
